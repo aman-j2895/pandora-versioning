@@ -1,0 +1,13 @@
+{
+    "name": "pandora-version",
+    "version": "1.0.0",
+    "description": "Repo for maintaining versions for pandora app",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "amanJain",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}

@@ -4,9 +4,9 @@ var app = express();app.listen(3000, () => {
 });
 
 app.get("/android-version", (req, res, next) => {
-    res.json({version: "1.0", forceDownload : false});
+    res.json({version: "1.1", forceDownload : true});
 });
 
 app.get("/ios-version", (req, res, next) => {
-    res.json({version: "1.0", forceDownload : false});
+    res.json({version: "1.1", forceDownload : true});
 });

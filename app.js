@@ -4,11 +4,11 @@ var app = express();app.listen(3000, () => {
 });
 
 app.get("/android-version", (req, res, next) => {
-    res.json({version: "1.2", forceDownload : false});
+    res.json({version: "1.3", forceDownload : false});
 });
 
 app.get("/ios-version", (req, res, next) => {
-    res.json({version: "1.2", forceDownload : false});
+    res.json({version: "1.3", forceDownload : false});
 });
 
 //git push -u origin main     

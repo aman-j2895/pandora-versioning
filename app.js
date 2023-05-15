@@ -8,7 +8,7 @@ app.get("/android-version", (req, res, next) => {
 });
 
 app.get("/ios-version", (req, res, next) => {
-    res.json({version: "1.8", forceDownload : false});
+    res.json({version: "1.9", forceDownload : false});
 });
 
 //git push -u origin main     
